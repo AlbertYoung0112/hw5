@@ -301,7 +301,7 @@
   <td style='text-align: center;'><span>CounterPlot</span></td>
  </tr>
  <tr style='vertical-align: baseline;'>
-  <td style='text-align: center;'><span><img src="HTMLFiles/CVHW5_39.gif" alt="CVHW5_39.gif" width="256" height="256" style="vertical-align:middle" /></span></td>
+  <td style='text-align: center;'><span><img src="HTMLFiles/CVHW5_39.gif" alt="CVHW5_39.gif" width="202" height="202" style="vertical-align:middle" /></span></td>
   <td style='text-align: center;'><span><img src="HTMLFiles/CVHW5_40.gif" alt="CVHW5_40.gif" width="360" height="286" style="vertical-align:middle" /></span></td>
   <td style='text-align: center;'><span><img src="HTMLFiles/CVHW5_41.gif" alt="CVHW5_41.gif" width="360" height="357" style="vertical-align:middle;" usemap="#map_41" />
 <map name="map_41">
@@ -346,6 +346,34 @@
  </tr>
 </table>
 
+<p class="Subsubsection">
+ Pass-band Energy / Stop-band Energy
+</p>
+
+
+
+<p class="Text">
+ To study the quality of the filter, we plot the standard cumulative function of the filter&rsquo;s response to the unit impulse. The higher value in cumulative function when the frequency reach its boundary, the more selective the filter is.<br />It&rsquo;s clear that the gaussian filter&rsquo;s PS ratio is much more lower than the Butterworth filter&rsquo;s.<br />It&rsquo;s not surprising because the the Butterworth LPF we use has the order of 10.
+</p>
+
+
+
+<p class="Code">
+ <img src="HTMLFiles/CVHW5_49.gif" alt="CVHW5_49.gif" width="723" height="612" style="vertical-align:middle" />
+</p>
+
+<p class="Output">
+ <img src="HTMLFiles/CVHW5_50.gif" alt="CVHW5_50.gif" width="508" height="214" style="vertical-align:middle" />
+</p>
+
+<p class="Print">
+ <img src="HTMLFiles/CVHW5_51.png" alt="CVHW5_51.png" width="400" height="17" style="vertical-align:middle" />
+</p>
+
+<p class="Print">
+ <img src="HTMLFiles/CVHW5_52.png" alt="CVHW5_52.png" width="376" height="17" style="vertical-align:middle" />
+</p>
+
 <p class="Section">
  Butterworth HPF
 </p>
@@ -359,23 +387,23 @@
 
 
 <p class="Code">
- <img src="HTMLFiles/CVHW5_49.gif" alt="CVHW5_49.gif" width="1069" height="379" style="vertical-align:middle" />
+ <img src="HTMLFiles/CVHW5_53.gif" alt="CVHW5_53.gif" width="1069" height="379" style="vertical-align:middle" />
 </p>
 
 <p class="Print">
- <img src="HTMLFiles/CVHW5_50.png" alt="CVHW5_50.png" width="250" height="17" style="vertical-align:middle" />
+ <img src="HTMLFiles/CVHW5_54.png" alt="CVHW5_54.png" width="250" height="17" style="vertical-align:middle" />
 </p>
 
 <p class="Output">
- <img src="HTMLFiles/CVHW5_51.gif" alt="CVHW5_51.gif" width="360" height="229" style="vertical-align:middle" />
+ <img src="HTMLFiles/CVHW5_55.gif" alt="CVHW5_55.gif" width="360" height="229" style="vertical-align:middle" />
 </p>
 
 <p class="Print">
- <img src="HTMLFiles/CVHW5_52.png" alt="CVHW5_52.png" width="383" height="17" style="vertical-align:middle" />
+ <img src="HTMLFiles/CVHW5_56.png" alt="CVHW5_56.png" width="383" height="17" style="vertical-align:middle" />
 </p>
 
 <p class="Output">
- <img src="HTMLFiles/CVHW5_53.gif" alt="CVHW5_53.gif" width="360" height="236" style="vertical-align:middle" />
+ <img src="HTMLFiles/CVHW5_57.gif" alt="CVHW5_57.gif" width="360" height="236" style="vertical-align:middle" />
 </p>
 
 <p class="Subsection">
@@ -385,12 +413,12 @@
 
 
 <p class="Code">
- <img src="HTMLFiles/CVHW5_54.gif" alt="CVHW5_54.gif" width="868" height="179" style="vertical-align:middle" />
+ <img src="HTMLFiles/CVHW5_58.gif" alt="CVHW5_58.gif" width="868" height="179" style="vertical-align:middle" />
 </p>
 
 <p class="Message">
- <img src="HTMLFiles/CVHW5_55.png" alt="CVHW5_55.png" width="772" height="14" style="vertical-align:middle;" usemap="#map_55" />
-<map name="map_55">
+ <img src="HTMLFiles/CVHW5_59.png" alt="CVHW5_59.png" width="772" height="14" style="vertical-align:middle;" usemap="#map_59" />
+<map name="map_59">
 <area shape="rect" coords="0,14,20,0" title="Dynamic[RawBoxes[FEPrivate`FrontEndResource[FEStrings, messageMenuTooltip]]]" nohref="" />
 </map>
 </p>
@@ -407,10 +435,10 @@
   <td style='text-align: center;'><span>CounterPlot</span></td>
  </tr>
  <tr style='vertical-align: baseline;'>
-  <td style='text-align: center;'><span><img src="HTMLFiles/CVHW5_56.gif" alt="CVHW5_56.gif" width="256" height="256" style="vertical-align:middle" /></span></td>
-  <td style='text-align: center;'><span><img src="HTMLFiles/CVHW5_57.gif" alt="CVHW5_57.gif" width="360" height="286" style="vertical-align:middle" /></span></td>
-  <td style='text-align: center;'><span><img src="HTMLFiles/CVHW5_58.gif" alt="CVHW5_58.gif" width="360" height="357" style="vertical-align:middle;" usemap="#map_58" />
-<map name="map_58">
+  <td style='text-align: center;'><span><img src="HTMLFiles/CVHW5_60.gif" alt="CVHW5_60.gif" width="256" height="256" style="vertical-align:middle" /></span></td>
+  <td style='text-align: center;'><span><img src="HTMLFiles/CVHW5_61.gif" alt="CVHW5_61.gif" width="360" height="286" style="vertical-align:middle" /></span></td>
+  <td style='text-align: center;'><span><img src="HTMLFiles/CVHW5_62.gif" alt="CVHW5_62.gif" width="360" height="357" style="vertical-align:middle;" usemap="#map_62" />
+<map name="map_62">
 <area shape="rect" coords="184,175,193,166" title="0" nohref="" />
 <area shape="rect" coords="181,178,197,162" title="0.25" nohref="" />
 <area shape="rect" coords="178,181,200,159" title="0.5" nohref="" />
@@ -430,7 +458,7 @@
 
 
 <p class="Code">
- <img src="HTMLFiles/CVHW5_59.gif" alt="CVHW5_59.gif" width="883" height="172" style="vertical-align:middle" />
+ <img src="HTMLFiles/CVHW5_63.gif" alt="CVHW5_63.gif" width="883" height="172" style="vertical-align:middle" />
 </p>
 
 <table class='Output'>
@@ -445,10 +473,10 @@
   <td style='text-align: center;'><span>CounterPlot</span></td>
  </tr>
  <tr style='vertical-align: baseline;'>
-  <td style='text-align: center;'><span><img src="HTMLFiles/CVHW5_60.gif" alt="CVHW5_60.gif" width="256" height="256" style="vertical-align:middle" /></span></td>
-  <td style='text-align: center;'><span><img src="HTMLFiles/CVHW5_61.gif" alt="CVHW5_61.gif" width="360" height="286" style="vertical-align:middle" /></span></td>
-  <td style='text-align: center;'><span><img src="HTMLFiles/CVHW5_62.gif" alt="CVHW5_62.gif" width="360" height="357" style="vertical-align:middle;" usemap="#map_62" />
-<map name="map_62">
+  <td style='text-align: center;'><span><img src="HTMLFiles/CVHW5_64.gif" alt="CVHW5_64.gif" width="256" height="256" style="vertical-align:middle" /></span></td>
+  <td style='text-align: center;'><span><img src="HTMLFiles/CVHW5_65.gif" alt="CVHW5_65.gif" width="360" height="286" style="vertical-align:middle" /></span></td>
+  <td style='text-align: center;'><span><img src="HTMLFiles/CVHW5_66.gif" alt="CVHW5_66.gif" width="360" height="357" style="vertical-align:middle;" usemap="#map_66" />
+<map name="map_66">
 <area shape="rect" coords="174,185,204,155" title="-0.8" nohref="" />
 <area shape="rect" coords="169,190,209,150" title="-0.6" nohref="" />
 <area shape="rect" coords="164,195,213,146" title="-0.4" nohref="" />
@@ -470,7 +498,7 @@
 
 
 <p class="Code">
- <img src="HTMLFiles/CVHW5_63.gif" alt="CVHW5_63.gif" width="1770" height="150" style="vertical-align:middle" />
+ <img src="HTMLFiles/CVHW5_67.gif" alt="CVHW5_67.gif" width="1770" height="150" style="vertical-align:middle" />
 </p>
 
 <table class='Output'>
@@ -482,18 +510,18 @@
   <td style='text-align: center;'><span>USM</span></td>
  </tr>
  <tr style='vertical-align: baseline;'>
-  <td style='text-align: center;'><span><img src="HTMLFiles/CVHW5_64.gif" alt="CVHW5_64.gif" width="180" height="101" style="vertical-align:middle" /></span></td>
-  <td style='text-align: center;'><span><img src="HTMLFiles/CVHW5_65.gif" alt="CVHW5_65.gif" width="180" height="180" style="vertical-align:middle" /></span></td>
-  <td style='text-align: center;'><span><img src="HTMLFiles/CVHW5_66.gif" alt="CVHW5_66.gif" width="180" height="180" style="vertical-align:middle" /></span></td>
-  <td style='text-align: center;'><span><img src="HTMLFiles/CVHW5_67.gif" alt="CVHW5_67.gif" width="180" height="180" style="vertical-align:middle" /></span></td>
-  <td style='text-align: center;'><span><img src="HTMLFiles/CVHW5_68.gif" alt="CVHW5_68.gif" width="180" height="180" style="vertical-align:middle" /></span></td>
- </tr>
- <tr style='vertical-align: baseline;'>
+  <td style='text-align: center;'><span><img src="HTMLFiles/CVHW5_68.gif" alt="CVHW5_68.gif" width="180" height="101" style="vertical-align:middle" /></span></td>
   <td style='text-align: center;'><span><img src="HTMLFiles/CVHW5_69.gif" alt="CVHW5_69.gif" width="180" height="180" style="vertical-align:middle" /></span></td>
   <td style='text-align: center;'><span><img src="HTMLFiles/CVHW5_70.gif" alt="CVHW5_70.gif" width="180" height="180" style="vertical-align:middle" /></span></td>
   <td style='text-align: center;'><span><img src="HTMLFiles/CVHW5_71.gif" alt="CVHW5_71.gif" width="180" height="180" style="vertical-align:middle" /></span></td>
   <td style='text-align: center;'><span><img src="HTMLFiles/CVHW5_72.gif" alt="CVHW5_72.gif" width="180" height="180" style="vertical-align:middle" /></span></td>
+ </tr>
+ <tr style='vertical-align: baseline;'>
   <td style='text-align: center;'><span><img src="HTMLFiles/CVHW5_73.gif" alt="CVHW5_73.gif" width="180" height="180" style="vertical-align:middle" /></span></td>
+  <td style='text-align: center;'><span><img src="HTMLFiles/CVHW5_74.gif" alt="CVHW5_74.gif" width="180" height="180" style="vertical-align:middle" /></span></td>
+  <td style='text-align: center;'><span><img src="HTMLFiles/CVHW5_75.gif" alt="CVHW5_75.gif" width="180" height="180" style="vertical-align:middle" /></span></td>
+  <td style='text-align: center;'><span><img src="HTMLFiles/CVHW5_76.gif" alt="CVHW5_76.gif" width="180" height="180" style="vertical-align:middle" /></span></td>
+  <td style='text-align: center;'><span><img src="HTMLFiles/CVHW5_77.gif" alt="CVHW5_77.gif" width="180" height="180" style="vertical-align:middle" /></span></td>
  </tr>
 </table>
 
